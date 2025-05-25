@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 import os
 
 # Set your Groq API key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
 # Streamlit setup
 st.set_page_config(page_title="Conversational Q&A Chatbot", page_icon=":robot_face:", layout="centered")

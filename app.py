@@ -3,11 +3,10 @@ from langchain.schema import HumanMessage, SystemMessage, AIMessage
 from langchain_groq import ChatGroq
 import os
 
-# Set your Groq API key
 os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
 # Streamlit setup
-st.set_page_config(page_title="Conversational Q&A Chatbot", page_icon=":robot_face:", layout="centered")
+st.set_page_config(page_title="Conversational Q&A Chatbot", page_icon="💬")
 st.title("🤖 Conversational Q&A Chatbot")
 
 # Initialize session state

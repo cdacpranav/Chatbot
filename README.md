@@ -55,10 +55,9 @@ Ensure you have Python 3.8 or higher installed.
 ```
 
 ## 🧠 Notes
-
 - Chat history is preserved during the session using `st.session_state`.
 - You can modify the system message or model parameters (e.g., temperature) in `app.py` as needed.
 
 ## 📝 License
+This project is open source and free to use for personal purposes.
 
-This project is open-source and available under the MIT License.
